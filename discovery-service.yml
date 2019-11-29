@@ -1,0 +1,19 @@
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: localhost
+  environment: production
+  datacenter: Bsd Tangerang Selatan
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: true
+
+zuul:
+  prefix: /api
+  routes:
+    rent-customer-service:
+      path: /rent-customer-service/**
+      url: http://localhost:8888
