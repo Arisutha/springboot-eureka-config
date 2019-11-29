@@ -16,4 +16,4 @@ zuul:
   routes:
     rent-customer-service:
       path: /rent-customer-service/**
-      url: http://localhost:8888
+      url: http://172.17.0.6:8888
