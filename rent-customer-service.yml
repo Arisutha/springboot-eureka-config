@@ -13,3 +13,5 @@ eureka:
     hostname: localhost
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1  
+customer:
+  service-url: customer-service    
