@@ -2,7 +2,7 @@ server:
   port: 8762
 eureka:
   instance:
-    hostname: localhost
+    hostname: http://warungku.co.id
     prefer-ip-address: true    
   environment: production
   datacenter: Bsd Tangerang Selatan
