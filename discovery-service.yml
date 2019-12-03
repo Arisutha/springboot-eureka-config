@@ -3,7 +3,7 @@ server:
 eureka:
   instance:
     hostname: warungku.co.id
-    prefer-ip-address: true    
+    preferIpAddress: true    
   environment: production
   datacenter: Bsd Tangerang Selatan
   client:
