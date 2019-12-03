@@ -10,7 +10,7 @@ eureka:
       defaultZone: http://172.17.0.4:8762/eureka
   instance:
     instanceId: ${spring.application.name}:${random.int}
-    hostname: localhost
+    hostname: warungku.co.id
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1  
 customer:

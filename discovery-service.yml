@@ -2,8 +2,7 @@ server:
   port: 8762
 eureka:
   instance:
-    hostname: warungku.co.id
-    preferIpAddress: false    
+    hostname: localhost    
   environment: production
   datacenter: Bsd Tangerang Selatan
   client:
