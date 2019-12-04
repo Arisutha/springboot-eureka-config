@@ -21,6 +21,13 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
+management:
+  security:
+    enabled: false
+management:
+  health:
+    consul:
+      enabled: false
 
 eureka:
   client:
