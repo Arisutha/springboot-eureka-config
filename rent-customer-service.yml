@@ -14,4 +14,11 @@ eureka:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1  
 customer:
-  service-url: customer-service    
+  service-url: customer-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - hystrx.stream      
