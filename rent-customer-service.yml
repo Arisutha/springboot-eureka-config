@@ -21,4 +21,4 @@ management:
     web:
       exposure:
         include:
-          - hystrx.stream      
+          - hystrix.stream      
